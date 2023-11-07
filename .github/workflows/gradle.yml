@@ -33,7 +33,7 @@ jobs:
 
     - name: Build with Gradle
       with:
-          path: ./Wompi/gradle/wrapper/gradle-wrapper.properties
+          path: Wompi/gradle/wrapper/gradle-wrapper.properties
 
 
 
