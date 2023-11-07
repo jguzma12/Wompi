@@ -32,10 +32,10 @@ jobs:
         export PATH=$PATH:/opt/gradle/gradle-8.4/bin
 
     - name: Build with Gradle
-      run: gradle build
+      with:
+          path: ./Wompi/gradle/wrapper/gradle-wrapper.properties
 
-    - name: Cambiar permisos de gradlew
-      run: gradle init
+
 
     - name: Run Tests
       run: gradle test
