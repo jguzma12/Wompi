@@ -14,5 +14,8 @@ public class Const {
     public static final  String BANCO_APRUEBA_QR = "Banco que aprueba";
     public static final  String BANCO_DECLINA_QR = "Banco que declina";
     public static final  String BANCO_ERROR_QR = "Banco que simula error";
+    public static final  String BANCO_APRUEBA_TRASNFER = "Banco que aprueba";
+    public static final  String BANCO_DECLINA_TRASNFER = "Banco que declina";
+    public static final  String BANCO_ERROR_TRASNFER = "Banco que simula error";
 
 }

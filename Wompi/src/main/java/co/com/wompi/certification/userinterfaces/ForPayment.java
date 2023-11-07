@@ -7,5 +7,7 @@ public class ForPayment {
             locatedBy("(//*[@class='src-components-PaymentMethod-__PaymentMethod__method__S2sQK'])[5]");
     public static final Target BTN_QR = Target.the("boton qr").
             locatedBy("(//*[@class='src-components-PaymentMethod-__PaymentMethod__method__S2sQK'])[2]");
+    public static final Target BTN_TRANSFER = Target.the("boton qr").
+            locatedBy("(//*[@class='src-components-PaymentMethod-__PaymentMethod__method__S2sQK'])[3]");
 
 }
