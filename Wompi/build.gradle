@@ -1,9 +1,16 @@
+buildscript {
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.3.12")
+    }
+}
+
 plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+apply plugin: 'net.serenity-bdd.aggregator'
+group = 'org.example'
+version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -11,13 +18,12 @@ repositories {
 
 dependencies {
 
-    implementation 'net.serenity-bdd:serenity-core:2.1.10'
-    implementation 'net.serenity-bdd:serenity-junit:2.1.10'
-    implementation 'net.serenity-bdd:serenity-cucumber:1.9.49'
-    implementation 'net.serenity-bdd:serenity-screenplay:2.1.10'
-
+    implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.1.10'
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.49'
+    implementation group: 'net.serenity-bdd', name: 'serenity-core', version: '2.1.10'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.1.10'
+    implementation group: 'net.serenity-bdd', name: 'serenity-ensure', version: '2.0.49'
 }
 
-test {
-    useJUnitPlatform()
-}
+
+gradle.startParameter.continueOnFailure = true

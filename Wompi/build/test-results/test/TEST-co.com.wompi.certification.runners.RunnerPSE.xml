@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.wompi.certification.runners.RunnerPSE" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LAPTOP-MUKU1ITQ" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+3 Scenarios (?[33m3 undefined?[0m)
+9 Steps (?[33m9 undefined?[0m)
+0m0,586s
+
+
+You can implement missing steps with the snippets below:
+
+
+@Given("^The user enters the Wompi payments page$")
+public void theUserEntersTheWompiPaymentsPage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^The user enter all data neccesary$")
+public void theUserEnterAllDataNeccesary(DataTable arg1) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+    // E,K,V must be a scalar (String, Integer, Date, enum etc).
+    // Field names for YourType must match the column names in 
+    // your feature file (except for spaces and capitalization).
+    throw new PendingException();
+}
+
+@Then("^The transaction is validated$")
+public void theTransactionIsValidated(DataTable arg1) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
+    // E,K,V must be a scalar (String, Integer, Date, enum etc).
+    // Field names for YourType must match the column names in 
+    // your feature file (except for spaces and capitalization).
+    throw new PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

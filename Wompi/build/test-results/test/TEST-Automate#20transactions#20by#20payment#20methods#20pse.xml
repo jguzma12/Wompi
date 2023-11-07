@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automate transactions by payment methods pse" tests="3" skipped="3" failures="0" errors="0" timestamp="2023-11-07T06:11:50" hostname="LAPTOP-MUKU1ITQ" time="0.125">
+  <properties/>
+  <testcase name="EMPTY_NAME" classname="Automate transactions by payment methods pse" time="0.029">
+    <skipped/>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Automate transactions by payment methods pse" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="Automate transactions by payment methods pse" time="0.014">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
