@@ -31,11 +31,6 @@ jobs:
         unzip -d /opt/gradle gradle-8.4-bin.zip
         export PATH=$PATH:/opt/gradle/gradle-8.4/bin
 
-    - name: Build with Gradle
-      with:
-          path: Wompi/gradle/wrapper/gradle-wrapper.properties
-
-
 
     - name: Run Tests
       run: gradle test
