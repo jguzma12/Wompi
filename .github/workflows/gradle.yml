@@ -25,11 +25,11 @@ jobs:
         distribution: 'temurin'
   
 
-    - name: Set up Gradle 7.4
+    - name: Set up Gradle 8.4
       run: |
-        wget https://services.gradle.org/distributions/gradle-7.4-bin.zip
-        unzip -d /opt/gradle gradle-7.4-bin.zip
-        export PATH=$PATH:/opt/gradle/gradle-7.4/bin
+        wget https://services.gradle.org/distributions/gradle-8.4-bin.zip
+        unzip -d /opt/gradle gradle-8.4-bin.zip
+        export PATH=$PATH:/opt/gradle/gradle-8.4/bin
 
     - name: Build with Gradle
       run: gradle build
