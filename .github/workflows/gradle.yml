@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: actions/setup-java@v3
       with:
         java-version: '11'
         distribution: 'temurin'
-    - run: java HelloWorldApp.java
+  
 
     - name: Set up Gradle 7.4
       run: |
